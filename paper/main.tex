@@ -134,34 +134,57 @@ Our contributions are six-fold:
       and (iii)~a rule-based context-to-affect seed map. We do \emph{not}
       claim that (ii) and (iii) are learned; their finite tables are released
       with the artifact (\S 3.1).
+    \item A context-conditional, type-biased, degree-normalized spreading
+      activation that induces a stable active subgraph under sign-mixed
+      edge weights (\S 3.2).
     \item A five-dimensional topological signature
       $T = (D, S, C, H, B)$ whose Symmetry is the normalized algebraic
       connectivity ($\lambda_2$ of the normalized Laplacian) of the active
       subgraph and whose Boundary is the sum of $H_1$ persistence lifetimes,
       computed by a pure-Python $\mathbb{Z}_2$ solver with no external TDA
       dependency (\S 3.3, \S 4).
-    \item A six-mechanism synaptic plasticity engine grounded in
-      neuroscience and affective psychology, with hooks for additional
-      invariant-preserving mechanisms described elsewhere and not claimed
-      here (\S 3.4).
-    \item Empirical validation on a 5{,}000-node lemmatized SAN
-      ($\sim$4.35M tokens, forty-one literary works): a static case study
-      with baselines and dimension-drop ablation, and three plasticity
-      experiments reproducing habituation, Fading Affect Bias, and
-      surprise-driven sensitization with effect signs and magnitudes
-      consistent with the source literature (\S 5).
+    \item A six-mechanism synaptic plasticity engine (Hebbian, Habituation,
+      Sensitization, Homeostatic Scaling, Fading Affect Bias, Consolidation),
+      each grounded in a specific neuroscience or affective-psychology
+      reference, with hooks for additional invariant-preserving mechanisms
+      described elsewhere and not claimed here (\S 3.4).
+    \item A four-dimensional intrinsic-motivation vector
+      $\mathbf{m} = (\mathrm{curiosity}, \mathrm{resolve}, \mathrm{express},
+      \mathrm{deepen})$ derived from the topological asymmetry of the same
+      activation map, with each dimension mapped to a specific neural
+      circuit (\S 7), providing a measurable Level-2 layer above the
+      Level-1 topological signature.
     \item An \textbf{instance isolation principle}: code is shared across
       SAN instances, but per-instance state (weights, activation logs,
       auxiliary configurations) is strictly isolated and feedback never
       crosses between instances (\S 6).
 \end{enumerate}
 
-We also report an \textbf{honest negative finding}: among the five topology
-dimensions, Depth and Boundary jointly carry $\sim$88\% of the discriminative
-signal across three seed concepts; Density, Symmetry, and Centrality together
-contribute $\sim$12\%. We keep the five-dimensional formalism for theoretical
-completeness, but the discriminative work is concentrated in the geodesic
-and persistence-based invariants.
+\paragraph{Empirical scope.}
+We instantiate the framework on an 8{,}000-node lemmatized SAN derived from
+the 200-work corpus and report (i)~a static case study with baselines and
+dimension-drop ablation, (ii)~three plasticity experiments reproducing the
+Thompson--Spencer habituation curve, the Walker--Skowronski Fading Affect
+Bias, and surprise-driven sensitization with effect signs consistent with
+the source literature, (iii)~an \emph{intra-corpus affect-trajectory
+differentiation} protocol with seven affect conditions (baseline plus six
+of Panksepp's seven primary affects, LUST excluded) across six stimuli,
+and (iv)~a $\pm 50\%$ parameter sensitivity analysis on the affect channels
+(\S\ref{sec:exp}).
+
+We also report two convergent \textbf{honest negative findings} on the
+relative weight of the five topology dimensions. First, in the static
+dimension-drop ablation across three seed concepts, Depth and Boundary
+jointly carry $\sim$88\% of the context-discrimination signal; Density,
+Symmetry, and Centrality together contribute $\sim$12\%
+(\S\ref{subsec:baseline}). Second, in the intra-corpus affect-trajectory
+experiment (\S\ref{subsec:affect_trajectory}), Boundary alone emerges as
+the \emph{primary observable}, producing systematically consistent
+directional differences for 13 of 21 affect pairs across at least four of
+six stimuli; no other dimension exceeds six. The two findings converge:
+the discriminative work of the framework is concentrated in the
+persistence-based $B$ and geodesic $H$. We retain the five-dimensional
+formalism for theoretical completeness.
 
 \section{Related Work}
 \textbf{Topological Data Analysis in deep learning.} Persistent homology and
@@ -816,17 +839,25 @@ intrinsic-motivation vector with clear neural-circuit grounding.
 rule-augmented rather than learned; their finite tables are released, and
 replacing them with WordNet antonyms or negation-context PMI is an obvious
 next step.
-(2)~In the static ablation, three of five topology dimensions
-($D, S, C$) jointly contribute $\sim$12\% to discrimination on the three
-seeds tested; we retain them for theoretical completeness but acknowledge
-that the framework's empirical power currently rests on $H$ and $B$.
+(2)~Across both static ablation (\S\ref{subsec:baseline}) and affect-
+trajectory differentiation (\S\ref{subsec:affect_trajectory}), the
+discriminative weight of the five topology dimensions is asymmetric:
+$D, S, C$ jointly contribute $\sim$12\% to context discrimination on the
+static three-seed setup, and only Boundary attains cross-stimulus
+directional consistency above six pairs (13 of 21) in the affect-trajectory
+setup. We retain the five-dimensional formalism for theoretical completeness
+but acknowledge that the framework's empirical power currently rests on
+$H$ and especially $B$.
 (3)~Convergence of Eq.~(2) under sign-mixed weights is reported empirically
 (30~steps on every $(c, \kappa)$ tested) and not proved.
 (4)~Human-subject validation that a topology vector corresponds to a felt
 sense is the natural follow-up experiment and is not yet performed.
-(5)~The plasticity experiments use small single-seed protocols designed to
-verify mechanism signs; statistical significance across larger seed
-populations is future work.
+(5)~The plasticity experiments (\S 5.3) use small single-seed protocols
+designed to verify mechanism signs; multi-seed replication is constrained
+by the deterministic propagation noted in limitation~(11), so robustness
+is reported instead via mechanism-by-mechanism sign agreement with the
+source literature and is corroborated by the $\pm 50\%$ parameter
+sensitivity analysis (\S\ref{subsec:sensitivity}).
 (6)~Additional plasticity-related mechanisms beyond the six listed here are
 described elsewhere and excluded from the empirical claims of this paper.
 (7)~\textbf{Corpus composition.} Despite a category-balanced design
