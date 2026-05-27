@@ -1,0 +1,677 @@
+{
+  "plan_version": "Track1_Affect_Trajectory_실험_Plan v1.2",
+  "stage": "Stage 4 Sensitivity Analysis",
+  "date_run": "2026-05-27T03:53:26",
+  "stimulus": {
+    "seed": "welcome",
+    "context": "garden"
+  },
+  "primary_observable": "Boundary (B)",
+  "numpy_seed": 42,
+  "baseline_per_affect": {
+    "SEEKING": {
+      "Density (D)": 0.16666666666666666,
+      "Symmetry (S)": 0.1728228238773114,
+      "Centrality (C)": 0.2803030303030303,
+      "Depth (H)": 2.0,
+      "Boundary (B)": 0.61804981177497,
+      "M-CS1_value_core_proximity": 1.4166666666666667,
+      "M-CS2_self_reference_loop_proxy": 1.6666666666666665,
+      "M-CS3_corpus_projection_entropy": 0.32784565698952445
+    },
+    "FEAR": {
+      "Density (D)": 0.2857142857142857,
+      "Symmetry (S)": 0.6994143939133026,
+      "Centrality (C)": 0.2142857142857143,
+      "Depth (H)": 1.0,
+      "Boundary (B)": 0.41606687860823033,
+      "M-CS1_value_core_proximity": 0.8571428571428571,
+      "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+      "M-CS3_corpus_projection_entropy": 0.3749329118634745
+    },
+    "CARE": {
+      "Density (D)": 0.18181818181818182,
+      "Symmetry (S)": 0.1728228238773114,
+      "Centrality (C)": 0.29090909090909095,
+      "Depth (H)": 2.0,
+      "Boundary (B)": 0.8621839071264982,
+      "M-CS1_value_core_proximity": 1.2727272727272727,
+      "M-CS2_self_reference_loop_proxy": 1.6363636363636365,
+      "M-CS3_corpus_projection_entropy": 0.5091187599647469
+    },
+    "RAGE": {
+      "Density (D)": 0.25,
+      "Symmetry (S)": 0.3188843123524153,
+      "Centrality (C)": 0.19642857142857145,
+      "Depth (H)": 2.0,
+      "Boundary (B)": 0.38393895510498877,
+      "M-CS1_value_core_proximity": 1.0,
+      "M-CS2_self_reference_loop_proxy": 1.5,
+      "M-CS3_corpus_projection_entropy": 0.25517786381412216
+    },
+    "PANIC": {
+      "Density (D)": 0.25,
+      "Symmetry (S)": 0.3188843123524153,
+      "Centrality (C)": 0.19642857142857145,
+      "Depth (H)": 2.0,
+      "Boundary (B)": 0.4481176578524736,
+      "M-CS1_value_core_proximity": 1.0,
+      "M-CS2_self_reference_loop_proxy": 1.5,
+      "M-CS3_corpus_projection_entropy": 0.3906005072049734
+    },
+    "PLAY": {
+      "Density (D)": 0.25,
+      "Symmetry (S)": 0.3188843123524153,
+      "Centrality (C)": 0.19642857142857145,
+      "Depth (H)": 2.0,
+      "Boundary (B)": 0.45904771821652746,
+      "M-CS1_value_core_proximity": 1.0,
+      "M-CS2_self_reference_loop_proxy": 1.5,
+      "M-CS3_corpus_projection_entropy": 0.37062365286344107
+    }
+  },
+  "variants_results": {
+    "SEEKING": {
+      "type_bias.concept_+50%": {
+        "param_path": "type_bias.concept",
+        "base_value": 0.9,
+        "variant_value": 1.35,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.09269162210338681,
+          "Symmetry (S)": 0.056786223998408214,
+          "Centrality (C)": 0.46945701357466063,
+          "Depth (H)": 3.0,
+          "Boundary (B)": 1.354986236756854,
+          "M-CS1_value_core_proximity": 2.0294117647058822,
+          "M-CS2_self_reference_loop_proxy": 2.4705882352941178,
+          "M-CS3_corpus_projection_entropy": 0.399746065725577
+        }
+      },
+      "type_bias.concept_-50%": {
+        "param_path": "type_bias.concept",
+        "base_value": 0.9,
+        "variant_value": 0.45,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.2805277781114136,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.3278390231073666
+        }
+      },
+      "gamma_+50%": {
+        "param_path": "gamma",
+        "base_value": 0.525,
+        "variant_value": 0.7875000000000001,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.17647058823529413,
+          "Symmetry (S)": 0.07469819287671674,
+          "Centrality (C)": 0.3662551440329218,
+          "Depth (H)": 3.0,
+          "Boundary (B)": 0.6235346610735933,
+          "M-CS1_value_core_proximity": 1.7222222222222223,
+          "M-CS2_self_reference_loop_proxy": 1.1111111111111112,
+          "M-CS3_corpus_projection_entropy": 0.3278456933624438
+        }
+      },
+      "gamma_-50%": {
+        "param_path": "gamma",
+        "base_value": 0.525,
+        "variant_value": 0.2625,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2222222222222222,
+          "Symmetry (S)": 0.24093891774158294,
+          "Centrality (C)": 0.2361111111111111,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.5697547380878245,
+          "M-CS1_value_core_proximity": 1.1111111111111112,
+          "M-CS2_self_reference_loop_proxy": 1.5555555555555554,
+          "M-CS3_corpus_projection_entropy": 0.3278215219676358
+        }
+      }
+    },
+    "FEAR": {
+      "type_bias.sensation_+50%": {
+        "param_path": "type_bias.sensation",
+        "base_value": 2.2,
+        "variant_value": 3.3000000000000003,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.45511065754419966,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.48418416384670426
+        }
+      },
+      "type_bias.sensation_-50%": {
+        "param_path": "type_bias.sensation",
+        "base_value": 2.2,
+        "variant_value": 1.1,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.3770230996722611,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.23106867548715318
+        }
+      },
+      "gamma_+50%": {
+        "param_path": "gamma",
+        "base_value": 0.21,
+        "variant_value": 0.315,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.44320614376280343,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.3751399241316826
+        }
+      },
+      "gamma_-50%": {
+        "param_path": "gamma",
+        "base_value": 0.21,
+        "variant_value": 0.105,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.26666666666666666,
+          "Symmetry (S)": 0.9999999999999996,
+          "Centrality (C)": 0.16666666666666666,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.35649992584218815,
+          "M-CS1_value_core_proximity": 0.8333333333333334,
+          "M-CS2_self_reference_loop_proxy": 1.3333333333333333,
+          "M-CS3_corpus_projection_entropy": 0.36618810837556637
+        }
+      },
+      "inhibitory_multiplier_+50%": {
+        "param_path": "inhibitory_multiplier",
+        "base_value": 1.5,
+        "variant_value": 2.25,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.41606687860823033,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.3749329118634745
+        }
+      },
+      "inhibitory_multiplier_-50%": {
+        "param_path": "inhibitory_multiplier",
+        "base_value": 1.5,
+        "variant_value": 0.75,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.41606687860823033,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.3749329118634745
+        }
+      }
+    },
+    "CARE": {
+      "type_bias.context_+50%": {
+        "param_path": "type_bias.context",
+        "base_value": 1.6,
+        "variant_value": 2.4000000000000004,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.16666666666666666,
+          "Symmetry (S)": 0.1728228238773114,
+          "Centrality (C)": 0.2803030303030303,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.8790324999448786,
+          "M-CS1_value_core_proximity": 1.4166666666666667,
+          "M-CS2_self_reference_loop_proxy": 1.6666666666666665,
+          "M-CS3_corpus_projection_entropy": 0.5091187599647469
+        }
+      },
+      "type_bias.context_-50%": {
+        "param_path": "type_bias.context",
+        "base_value": 1.6,
+        "variant_value": 0.8,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.18181818181818182,
+          "Symmetry (S)": 0.1728228238773114,
+          "Centrality (C)": 0.29090909090909095,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.8621839071264982,
+          "M-CS1_value_core_proximity": 1.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 1.6363636363636365,
+          "M-CS3_corpus_projection_entropy": 0.5091187599647469
+        }
+      },
+      "proximity_node_weight_+50%": {
+        "param_path": "proximity_node_weight",
+        "base_value": 0.5,
+        "variant_value": 0.75,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.22857142857142856,
+          "Symmetry (S)": 0.09779960428384893,
+          "Centrality (C)": 0.3611111111111111,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 1.6849357395261118,
+          "M-CS1_value_core_proximity": 1.4666666666666666,
+          "M-CS2_self_reference_loop_proxy": 1.7333333333333334,
+          "M-CS3_corpus_projection_entropy": 0.7079993131228338
+        }
+      },
+      "proximity_node_weight_-50%": {
+        "param_path": "proximity_node_weight",
+        "base_value": 0.5,
+        "variant_value": 0.25,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2222222222222222,
+          "Symmetry (S)": 0.24093891774158294,
+          "Centrality (C)": 0.2361111111111111,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.5652714127021944,
+          "M-CS1_value_core_proximity": 1.1111111111111112,
+          "M-CS2_self_reference_loop_proxy": 1.5555555555555554,
+          "M-CS3_corpus_projection_entropy": 0.39705992099818854
+        }
+      },
+      "context_affect_map_multiplier_+50%": {
+        "param_path": "context_affect_map_multiplier",
+        "base_value": 1.3,
+        "variant_value": 1.9500000000000002,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.18181818181818182,
+          "Symmetry (S)": 0.1728228238773114,
+          "Centrality (C)": 0.29090909090909095,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.8621839071264982,
+          "M-CS1_value_core_proximity": 1.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 1.6363636363636365,
+          "M-CS3_corpus_projection_entropy": 0.5091187599647469
+        }
+      },
+      "context_affect_map_multiplier_-50%": {
+        "param_path": "context_affect_map_multiplier",
+        "base_value": 1.3,
+        "variant_value": 0.65,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.18181818181818182,
+          "Symmetry (S)": 0.1728228238773114,
+          "Centrality (C)": 0.29090909090909095,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.8621839071264982,
+          "M-CS1_value_core_proximity": 1.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 1.6363636363636365,
+          "M-CS3_corpus_projection_entropy": 0.5091187599647469
+        }
+      }
+    },
+    "RAGE": {
+      "type_bias.association_+50%": {
+        "param_path": "type_bias.association",
+        "base_value": 1.8,
+        "variant_value": 2.7,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.38393895510498877,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.25517786381412216
+        }
+      },
+      "type_bias.association_-50%": {
+        "param_path": "type_bias.association",
+        "base_value": 1.8,
+        "variant_value": 0.9,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.38393895510498877,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.25517786381412216
+        }
+      },
+      "inhibitory_propagation_bonus_+50%": {
+        "param_path": "inhibitory_propagation_bonus",
+        "base_value": 0.4,
+        "variant_value": 0.6000000000000001,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.38393895510498877,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.25517786381412216
+        }
+      },
+      "inhibitory_propagation_bonus_-50%": {
+        "param_path": "inhibitory_propagation_bonus",
+        "base_value": 0.4,
+        "variant_value": 0.2,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.38393895510498877,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.25517786381412216
+        }
+      },
+      "boundary_crossing_penalty_+50%": {
+        "param_path": "boundary_crossing_penalty",
+        "base_value": 0.3,
+        "variant_value": 0.44999999999999996,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.3614075484386041,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.2139460329329785
+        }
+      },
+      "boundary_crossing_penalty_-50%": {
+        "param_path": "boundary_crossing_penalty",
+        "base_value": 0.3,
+        "variant_value": 0.15,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.4064703617713734,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.2929457241465272
+        }
+      }
+    },
+    "PANIC": {
+      "gamma_+50%": {
+        "param_path": "gamma",
+        "base_value": 0.28,
+        "variant_value": 0.42000000000000004,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.44818887255480666,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.3906122635947346
+        }
+      },
+      "gamma_-50%": {
+        "param_path": "gamma",
+        "base_value": 0.28,
+        "variant_value": 0.14,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.4166401591322292,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.3878496761181587
+        }
+      },
+      "value_core_anchor_weight_+50%": {
+        "param_path": "value_core_anchor_weight",
+        "base_value": 1.3,
+        "variant_value": 1.9500000000000002,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.48967913957218945,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.5025096884910454
+        }
+      },
+      "value_core_anchor_weight_-50%": {
+        "param_path": "value_core_anchor_weight",
+        "base_value": 1.3,
+        "variant_value": 0.65,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.40655617613275785,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.24184750835540753
+        }
+      },
+      "loss_affect_node_bias_+50%": {
+        "param_path": "loss_affect_node_bias",
+        "base_value": 0.4,
+        "variant_value": 0.6000000000000001,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.4481176578524736,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.3906005072049734
+        }
+      },
+      "loss_affect_node_bias_-50%": {
+        "param_path": "loss_affect_node_bias",
+        "base_value": 0.4,
+        "variant_value": 0.2,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.4481176578524736,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.3906005072049734
+        }
+      }
+    },
+    "PLAY": {
+      "gamma_+50%": {
+        "param_path": "gamma",
+        "base_value": 0.42,
+        "variant_value": 0.63,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.16666666666666666,
+          "Symmetry (S)": 0.1728228238773114,
+          "Centrality (C)": 0.2803030303030303,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.48653800999622876,
+          "M-CS1_value_core_proximity": 1.4166666666666667,
+          "M-CS2_self_reference_loop_proxy": 1.3333333333333333,
+          "M-CS3_corpus_projection_entropy": 0.37062510169262375
+        }
+      },
+      "gamma_-50%": {
+        "param_path": "gamma",
+        "base_value": 0.42,
+        "variant_value": 0.21,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.2857142857142857,
+          "Symmetry (S)": 0.6994143939133026,
+          "Centrality (C)": 0.2142857142857143,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.4318857830917665,
+          "M-CS1_value_core_proximity": 0.8571428571428571,
+          "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+          "M-CS3_corpus_projection_entropy": 0.37041704669139364
+        }
+      },
+      "cross_category_edge_bonus_+50%": {
+        "param_path": "cross_category_edge_bonus",
+        "base_value": 0.2,
+        "variant_value": 0.30000000000000004,
+        "direction": "+50%",
+        "result": {
+          "Density (D)": 0.2222222222222222,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.18055555555555555,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.48850486723902464,
+          "M-CS1_value_core_proximity": 1.2222222222222223,
+          "M-CS2_self_reference_loop_proxy": 1.5555555555555554,
+          "M-CS3_corpus_projection_entropy": 0.39061293035254907
+        }
+      },
+      "cross_category_edge_bonus_-50%": {
+        "param_path": "cross_category_edge_bonus",
+        "base_value": 0.2,
+        "variant_value": 0.1,
+        "direction": "-50%",
+        "result": {
+          "Density (D)": 0.25,
+          "Symmetry (S)": 0.3188843123524153,
+          "Centrality (C)": 0.19642857142857145,
+          "Depth (H)": 2.0,
+          "Boundary (B)": 0.44402674075714843,
+          "M-CS1_value_core_proximity": 1.0,
+          "M-CS2_self_reference_loop_proxy": 1.5,
+          "M-CS3_corpus_projection_entropy": 0.34972832258011755
+        }
+      }
+    }
+  },
+  "sensitivity_summary": {
+    "SEEKING": {
+      "type_bias.concept": {
+        "max_relative_change_pct": 119.235765619843,
+        "label": "BRITTLE"
+      },
+      "gamma": {
+        "max_relative_change_pct": 7.814107013227206,
+        "label": "ROBUST"
+      }
+    },
+    "FEAR": {
+      "type_bias.sensation": {
+        "max_relative_change_pct": 9.384015153182395,
+        "label": "ROBUST"
+      },
+      "gamma": {
+        "max_relative_change_pct": 14.316677396984197,
+        "label": "MODERATE"
+      },
+      "inhibitory_multiplier": {
+        "max_relative_change_pct": 0.0,
+        "label": "ROBUST"
+      }
+    },
+    "CARE": {
+      "type_bias.context": {
+        "max_relative_change_pct": 1.9541762121881583,
+        "label": "ROBUST"
+      },
+      "proximity_node_weight": {
+        "max_relative_change_pct": 95.42648912825288,
+        "label": "BRITTLE"
+      },
+      "context_affect_map_multiplier": {
+        "max_relative_change_pct": 0.0,
+        "label": "ROBUST"
+      }
+    },
+    "RAGE": {
+      "type_bias.association": {
+        "max_relative_change_pct": 0.0,
+        "label": "ROBUST"
+      },
+      "inhibitory_propagation_bonus": {
+        "max_relative_change_pct": 0.0,
+        "label": "ROBUST"
+      },
+      "boundary_crossing_penalty": {
+        "max_relative_change_pct": 5.868486739050325,
+        "label": "ROBUST"
+      }
+    },
+    "PANIC": {
+      "gamma": {
+        "max_relative_change_pct": 7.02438258538949,
+        "label": "ROBUST"
+      },
+      "value_core_anchor_weight": {
+        "max_relative_change_pct": 9.274680653936306,
+        "label": "ROBUST"
+      },
+      "loss_affect_node_bias": {
+        "max_relative_change_pct": 0.0,
+        "label": "ROBUST"
+      }
+    },
+    "PLAY": {
+      "gamma": {
+        "max_relative_change_pct": 5.988547745429475,
+        "label": "ROBUST"
+      },
+      "cross_category_edge_bonus": {
+        "max_relative_change_pct": 6.417012404928804,
+        "label": "ROBUST"
+      }
+    }
+  }
+}

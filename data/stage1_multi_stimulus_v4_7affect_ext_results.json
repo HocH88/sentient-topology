@@ -1,0 +1,2525 @@
+{
+  "plan_version": "Track1_Affect_Trajectory_실험_Plan v1.1",
+  "stage": "Stage 1 Multi-Stimulus (S2-Redesign, 2026-05-26 밤)",
+  "date_run": "2026-05-27T03:44:17",
+  "conditions": [
+    "baseline_uniform",
+    "SEEKING",
+    "FEAR",
+    "CARE",
+    "RAGE",
+    "PANIC",
+    "PLAY"
+  ],
+  "stimuli": [
+    {
+      "seed": "welcome",
+      "context": "garden"
+    },
+    {
+      "seed": "sunset",
+      "context": "war"
+    },
+    {
+      "seed": "love",
+      "context": "garden"
+    }
+  ],
+  "numpy_seed": 42,
+  "san_path": "D:\\Coding\\Sentient_AI\\data\\large_san_8000.json",
+  "value_core_lexicon_size": 43,
+  "total_runs": 21,
+  "results_per_condition_stimulus": {
+    "baseline_uniform|0": {
+      "measurements_9d": {
+        "Density (D)": 0.25,
+        "Symmetry (S)": 0.3188843123524152,
+        "Centrality (C)": 0.19642857142857145,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.42900176843775806,
+        "M-CS1_value_core_proximity": 1.0,
+        "M-CS2_self_reference_loop_proxy": 1.5,
+        "M-CS3_corpus_projection_entropy": 0.32784370228774706
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "gardener",
+        "baptista",
+        "lovely",
+        "signior",
+        "greet"
+      ],
+      "n_active": 8,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "baseline_uniform|1": {
+      "measurements_9d": {
+        "Density (D)": 0.17647058823529413,
+        "Symmetry (S)": 0.3315169074280235,
+        "Centrality (C)": 0.47058823529411764,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.62492923778097,
+        "M-CS1_value_core_proximity": 3.0588235294117645,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 17,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "baseline_uniform|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.15019301615177905,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.3278192922312541
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "SEEKING|0": {
+      "measurements_9d": {
+        "Density (D)": 0.16666666666666666,
+        "Symmetry (S)": 0.17282282387731127,
+        "Centrality (C)": 0.2803030303030303,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.61804981177497,
+        "M-CS1_value_core_proximity": 1.4166666666666667,
+        "M-CS2_self_reference_loop_proxy": 1.6666666666666665,
+        "M-CS3_corpus_projection_entropy": 0.32784565698952445
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "gardener",
+        "baptista",
+        "lovely",
+        "signior",
+        "greet",
+        "bye",
+        "dick"
+      ],
+      "n_active": 12,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "SEEKING|1": {
+      "measurements_9d": {
+        "Density (D)": 0.14210526315789473,
+        "Symmetry (S)": 0.242878158951947,
+        "Centrality (C)": 0.46481481481481485,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.8440141936400936,
+        "M-CS1_value_core_proximity": 3.15,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "sunrise",
+        "rage",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 20,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "SEEKING|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3,
+        "Symmetry (S)": 0.5846329251275407,
+        "Centrality (C)": 0.3333333333333333,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.18580316938145713,
+        "M-CS1_value_core_proximity": 1.2,
+        "M-CS2_self_reference_loop_proxy": 1.2000000000000002,
+        "M-CS3_corpus_projection_entropy": 0.32784418840865226
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely",
+        "market"
+      ],
+      "n_active": 5,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "FEAR|0": {
+      "measurements_9d": {
+        "Density (D)": 0.2857142857142857,
+        "Symmetry (S)": 0.6994143939133028,
+        "Centrality (C)": 0.2142857142857143,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.41606687860823033,
+        "M-CS1_value_core_proximity": 0.8571428571428571,
+        "M-CS2_self_reference_loop_proxy": 1.4285714285714284,
+        "M-CS3_corpus_projection_entropy": 0.3749329118634745
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "gardener",
+        "lovely",
+        "baptista",
+        "signior"
+      ],
+      "n_active": 7,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "FEAR|1": {
+      "measurements_9d": {
+        "Density (D)": 0.17647058823529413,
+        "Symmetry (S)": 0.3315169074280235,
+        "Centrality (C)": 0.47058823529411764,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.6422207751913275,
+        "M-CS1_value_core_proximity": 3.0588235294117645,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 17,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "FEAR|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.16428094918706848,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.3749329118634745
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "CARE|0": {
+      "measurements_9d": {
+        "Density (D)": 0.18181818181818182,
+        "Symmetry (S)": 0.17282282387731127,
+        "Centrality (C)": 0.29090909090909095,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.8621839071264982,
+        "M-CS1_value_core_proximity": 1.2727272727272727,
+        "M-CS2_self_reference_loop_proxy": 1.6363636363636365,
+        "M-CS3_corpus_projection_entropy": 0.5091187599647469
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "baptista",
+        "lovely",
+        "signior",
+        "gardener",
+        "greet",
+        "bye",
+        "dick"
+      ],
+      "n_active": 11,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "CARE|1": {
+      "measurements_9d": {
+        "Density (D)": 0.17647058823529413,
+        "Symmetry (S)": 0.3315169074280235,
+        "Centrality (C)": 0.47058823529411764,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.7070703229316136,
+        "M-CS1_value_core_proximity": 3.0588235294117645,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 17,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "CARE|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.21375607977180988,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.5091187599647469
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "lovely",
+        "gardener"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "RAGE|0": {
+      "measurements_9d": {
+        "Density (D)": 0.25,
+        "Symmetry (S)": 0.3188843123524152,
+        "Centrality (C)": 0.19642857142857145,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.38393895510498877,
+        "M-CS1_value_core_proximity": 1.0,
+        "M-CS2_self_reference_loop_proxy": 1.5,
+        "M-CS3_corpus_projection_entropy": 0.25517786381412216
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "baptista",
+        "gardener",
+        "signior",
+        "lovely",
+        "greet"
+      ],
+      "n_active": 8,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "RAGE|1": {
+      "measurements_9d": {
+        "Density (D)": 0.17647058823529413,
+        "Symmetry (S)": 0.3315169074280235,
+        "Centrality (C)": 0.47058823529411764,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.4374443377488808,
+        "M-CS1_value_core_proximity": 3.0588235294117645,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 17,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "RAGE|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.10513511130624531,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.2551578450954998
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "PANIC|0": {
+      "measurements_9d": {
+        "Density (D)": 0.25,
+        "Symmetry (S)": 0.3188843123524152,
+        "Centrality (C)": 0.19642857142857145,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.4481176578524736,
+        "M-CS1_value_core_proximity": 1.0,
+        "M-CS2_self_reference_loop_proxy": 1.5,
+        "M-CS3_corpus_projection_entropy": 0.3906005072049734
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "gardener",
+        "lovely",
+        "baptista",
+        "signior",
+        "greet"
+      ],
+      "n_active": 8,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "PANIC|1": {
+      "measurements_9d": {
+        "Density (D)": 0.17647058823529413,
+        "Symmetry (S)": 0.3315169074280235,
+        "Centrality (C)": 0.47058823529411764,
+        "Depth (H)": 1.0,
+        "Boundary (B)": 0.6248906543638546,
+        "M-CS1_value_core_proximity": 3.0588235294117645,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 17,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "PANIC|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.1693701250780527,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.3905780994576252
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "PLAY|0": {
+      "measurements_9d": {
+        "Density (D)": 0.25,
+        "Symmetry (S)": 0.3188843123524152,
+        "Centrality (C)": 0.19642857142857145,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.45904771821652746,
+        "M-CS1_value_core_proximity": 1.0,
+        "M-CS2_self_reference_loop_proxy": 1.5,
+        "M-CS3_corpus_projection_entropy": 0.37062365286344107
+      },
+      "top10_active": [
+        "garden",
+        "welcome",
+        "cordially",
+        "gardener",
+        "lovely",
+        "baptista",
+        "signior",
+        "greet"
+      ],
+      "n_active": 8,
+      "value_core_in_active": [
+        "welcome",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    },
+    "PLAY|1": {
+      "measurements_9d": {
+        "Density (D)": 0.16339869281045752,
+        "Symmetry (S)": 0.3257622686866199,
+        "Centrality (C)": 0.46888888888888886,
+        "Depth (H)": 2.0,
+        "Boundary (B)": 0.7649800204132549,
+        "M-CS1_value_core_proximity": 3.111111111111111,
+        "M-CS2_self_reference_loop_proxy": 0.0,
+        "M-CS3_corpus_projection_entropy": 0.0
+      },
+      "top10_active": [
+        "war",
+        "sunset",
+        "rage",
+        "sunrise",
+        "loveliness",
+        "cloudy",
+        "ruddy",
+        "outlet",
+        "splendor",
+        "mellow"
+      ],
+      "n_active": 18,
+      "value_core_in_active": [],
+      "n_value_core_in_active": 0,
+      "context_present": true,
+      "crashed": false
+    },
+    "PLAY|2": {
+      "measurements_9d": {
+        "Density (D)": 0.3333333333333333,
+        "Symmetry (S)": 1.0,
+        "Centrality (C)": 0.375,
+        "Depth (H)": 0.0,
+        "Boundary (B)": 0.18024291031886686,
+        "M-CS1_value_core_proximity": 0.75,
+        "M-CS2_self_reference_loop_proxy": 1.0,
+        "M-CS3_corpus_projection_entropy": 0.3706116580977532
+      },
+      "top10_active": [
+        "love",
+        "garden",
+        "gardener",
+        "lovely"
+      ],
+      "n_active": 4,
+      "value_core_in_active": [
+        "love",
+        "lovely"
+      ],
+      "n_value_core_in_active": 2,
+      "context_present": true,
+      "crashed": false
+    }
+  },
+  "analysis_1_per_stimulus_differentiation": {
+    "welcome × garden": {
+      "baseline_uniform vs SEEKING": {
+        "deltas_all_9d": {
+          "Density (D)": 0.08333333333333334,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.08387445887445882,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.18904804333721192,
+          "M-CS1_value_core_proximity": 0.41666666666666674,
+          "M-CS2_self_reference_loop_proxy": 0.16666666666666652,
+          "M-CS3_corpus_projection_entropy": 1.9547017773846598e-06
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.18904804333721192,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0357142857142857,
+          "Symmetry (S)": 0.38053008156088763,
+          "Centrality (C)": 0.01785714285714285,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.01293488982952773,
+          "M-CS1_value_core_proximity": 0.1428571428571429,
+          "M-CS2_self_reference_loop_proxy": 0.07142857142857162,
+          "M-CS3_corpus_projection_entropy": 0.04708920957572743
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.125,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.06818181818181818,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.0944805194805195,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.4331821386887401,
+          "M-CS1_value_core_proximity": 0.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 0.13636363636363646,
+          "M-CS3_corpus_projection_entropy": 0.1812750576769998
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.4331821386887401,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.04506281333276929,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0726658384736249
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.04506281333276929,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.019115889414715537,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.06275680491722635
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.019115889414715537,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.0300459497787694,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.042779950575694004
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.0300459497787694,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "SEEKING vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.11904761904761904,
+          "Symmetry (S)": 0.5265915700359916,
+          "Centrality (C)": 0.06601731601731597,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.20198293316673965,
+          "M-CS1_value_core_proximity": 0.5595238095238096,
+          "M-CS2_self_reference_loop_proxy": 0.23809523809523814,
+          "M-CS3_corpus_projection_entropy": 0.047087254873950046
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.30000000000000004,
+        "differentiation_passed": true
+      },
+      "SEEKING vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.015151515151515166,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.010606060606060674,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.2441340953515282,
+          "M-CS1_value_core_proximity": 0.14393939393939403,
+          "M-CS2_self_reference_loop_proxy": 0.030303030303030054,
+          "M-CS3_corpus_projection_entropy": 0.18127310297522242
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.2441340953515282,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.08333333333333334,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.08387445887445882,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.23411085666998122,
+          "M-CS1_value_core_proximity": 0.41666666666666674,
+          "M-CS2_self_reference_loop_proxy": 0.16666666666666652,
+          "M-CS3_corpus_projection_entropy": 0.07266779317540228
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.23411085666998122,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.08333333333333334,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.08387445887445882,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.1699321539224964,
+          "M-CS1_value_core_proximity": 0.41666666666666674,
+          "M-CS2_self_reference_loop_proxy": 0.16666666666666652,
+          "M-CS3_corpus_projection_entropy": 0.06275485021544897
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.1699321539224964,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.08333333333333334,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.08387445887445882,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.15900209355844253,
+          "M-CS1_value_core_proximity": 0.41666666666666674,
+          "M-CS2_self_reference_loop_proxy": 0.16666666666666652,
+          "M-CS3_corpus_projection_entropy": 0.04277799587391662
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.15900209355844253,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "FEAR vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.10389610389610388,
+          "Symmetry (S)": 0.5265915700359916,
+          "Centrality (C)": 0.07662337662337665,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.44611702851826784,
+          "M-CS1_value_core_proximity": 0.4155844155844156,
+          "M-CS2_self_reference_loop_proxy": 0.20779220779220808,
+          "M-CS3_corpus_projection_entropy": 0.13418584810127238
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.30000000000000004,
+        "differentiation_passed": true
+      },
+      "FEAR vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0357142857142857,
+          "Symmetry (S)": 0.38053008156088763,
+          "Centrality (C)": 0.01785714285714285,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.03212792350324156,
+          "M-CS1_value_core_proximity": 0.1428571428571429,
+          "M-CS2_self_reference_loop_proxy": 0.07142857142857162,
+          "M-CS3_corpus_projection_entropy": 0.11975504804935233
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.125,
+        "differentiation_passed": true
+      },
+      "FEAR vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0357142857142857,
+          "Symmetry (S)": 0.38053008156088763,
+          "Centrality (C)": 0.01785714285714285,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.032050779244243266,
+          "M-CS1_value_core_proximity": 0.1428571428571429,
+          "M-CS2_self_reference_loop_proxy": 0.07142857142857162,
+          "M-CS3_corpus_projection_entropy": 0.01566759534149892
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.125,
+        "differentiation_passed": true
+      },
+      "FEAR vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0357142857142857,
+          "Symmetry (S)": 0.38053008156088763,
+          "Centrality (C)": 0.01785714285714285,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.04298083960829713,
+          "M-CS1_value_core_proximity": 0.1428571428571429,
+          "M-CS2_self_reference_loop_proxy": 0.07142857142857162,
+          "M-CS3_corpus_projection_entropy": 0.004309259000033427
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.125,
+        "differentiation_passed": true
+      },
+      "CARE vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.06818181818181818,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.0944805194805195,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.4782449520215094,
+          "M-CS1_value_core_proximity": 0.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 0.13636363636363646,
+          "M-CS3_corpus_projection_entropy": 0.2539408961506247
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.4782449520215094,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "CARE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.06818181818181818,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.0944805194805195,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.4140662492740246,
+          "M-CS1_value_core_proximity": 0.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 0.13636363636363646,
+          "M-CS3_corpus_projection_entropy": 0.11851825275977346
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.4140662492740246,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "CARE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.06818181818181818,
+          "Symmetry (S)": 0.14606148847510395,
+          "Centrality (C)": 0.0944805194805195,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.4031361889099707,
+          "M-CS1_value_core_proximity": 0.2727272727272727,
+          "M-CS2_self_reference_loop_proxy": 0.13636363636363646,
+          "M-CS3_corpus_projection_entropy": 0.1384951071013058
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.4031361889099707,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "RAGE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.06417870274748483,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.13542264339085125
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.06417870274748483,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "RAGE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.07510876311153869,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.1154457890493189
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.07510876311153869,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "PANIC vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.010930060364053862,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.019976854341532346
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.010930060364053862,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      }
+    },
+    "sunset × war": {
+      "baseline_uniform vs SEEKING": {
+        "deltas_all_9d": {
+          "Density (D)": 0.034365325077399395,
+          "Symmetry (S)": 0.08863874847607647,
+          "Centrality (C)": 0.005773420479302793,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.21908495585912358,
+          "M-CS1_value_core_proximity": 0.09117647058823541,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.017291537410357494,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.017291537410357494,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.08214108515064367,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.08214108515064367,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.18748490003208917,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.18748490003208917,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 3.8583417115378715e-05,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 3.8583417115378715e-05,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.01307189542483661,
+          "Symmetry (S)": 0.005754638741403584,
+          "Centrality (C)": 0.0016993464052287854,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.14005078263228488,
+          "M-CS1_value_core_proximity": 0.052287581699346664,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.034365325077399395,
+          "Symmetry (S)": 0.08863874847607647,
+          "Centrality (C)": 0.005773420479302793,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.20179341844876608,
+          "M-CS1_value_core_proximity": 0.09117647058823541,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.034365325077399395,
+          "Symmetry (S)": 0.08863874847607647,
+          "Centrality (C)": 0.005773420479302793,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.1369438707084799,
+          "M-CS1_value_core_proximity": 0.09117647058823541,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.034365325077399395,
+          "Symmetry (S)": 0.08863874847607647,
+          "Centrality (C)": 0.005773420479302793,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.40656985589121275,
+          "M-CS1_value_core_proximity": 0.09117647058823541,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.034365325077399395,
+          "Symmetry (S)": 0.08863874847607647,
+          "Centrality (C)": 0.005773420479302793,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.21912353927623895,
+          "M-CS1_value_core_proximity": 0.09117647058823541,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.021293429652562784,
+          "Symmetry (S)": 0.08288410973467289,
+          "Centrality (C)": 0.004074074074074008,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.0790341732268387,
+          "M-CS1_value_core_proximity": 0.03888888888888875,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.08288410973467289,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.06484954774028617,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.06484954774028617,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.20477643744244667,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.20477643744244667,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "FEAR vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.017330120827472872,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.017330120827472872,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.01307189542483661,
+          "Symmetry (S)": 0.005754638741403584,
+          "Centrality (C)": 0.0016993464052287854,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.12275924522192738,
+          "M-CS1_value_core_proximity": 0.052287581699346664,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "CARE vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.26962598518273284,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.26962598518273284,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "CARE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.08217966856775905,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.08217966856775905,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "CARE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.01307189542483661,
+          "Symmetry (S)": 0.005754638741403584,
+          "Centrality (C)": 0.0016993464052287854,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.05790969748164121,
+          "M-CS1_value_core_proximity": 0.052287581699346664,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "RAGE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.1874463166149738,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.1874463166149738,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "RAGE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.01307189542483661,
+          "Symmetry (S)": 0.005754638741403584,
+          "Centrality (C)": 0.0016993464052287854,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.32753568266437405,
+          "M-CS1_value_core_proximity": 0.052287581699346664,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "PANIC vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.01307189542483661,
+          "Symmetry (S)": 0.005754638741403584,
+          "Centrality (C)": 0.0016993464052287854,
+          "Depth (H)": 1.0,
+          "Boundary (B)": 0.14008936604940025,
+          "M-CS1_value_core_proximity": 0.052287581699346664,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.0
+        },
+        "max_5d_dim": "Depth (H)",
+        "max_5d_delta": 1.0,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      }
+    },
+    "love × garden": {
+      "baseline_uniform vs SEEKING": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.03561015322967809,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 2.48961773981482e-05
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "baseline_uniform vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.014087933035289435,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.04711361963222038
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.014087933035289435,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.06356306362003084,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.18129946773349276
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.06356306362003084,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.045057904845533736,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.07266144713575429
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.045057904845533736,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.019177108926273667,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.06275880722637112
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.019177108926273667,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "baseline_uniform vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.03004989416708781,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.042792365866499094
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.03004989416708781,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "SEEKING vs FEAR": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.021522220194388653,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 0.047088723454822234
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.027952910390352748,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 0.1812745715560946
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.08066805807521182,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 0.07268634331315244
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.01643304430340442,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 0.06273391104897297
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "SEEKING vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.033333333333333326,
+          "Symmetry (S)": 0.4153670748724593,
+          "Centrality (C)": 0.041666666666666685,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.005560259062590278,
+          "M-CS1_value_core_proximity": 0.44999999999999996,
+          "M-CS2_self_reference_loop_proxy": 0.20000000000000018,
+          "M-CS3_corpus_projection_entropy": 0.042767469689100945
+        },
+        "max_5d_dim": "Symmetry (S)",
+        "max_5d_delta": 0.4153670748724593,
+        "top10_diff_ratio": 0.19999999999999996,
+        "differentiation_passed": true
+      },
+      "FEAR vs CARE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.0494751305847414,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.13418584810127238
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.0494751305847414,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.05914583788082317,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.11977506676797467
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.05914583788082317,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.005089175890984232,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.015645187594150733
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.005089175890984232,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "FEAR vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.015961961131798375,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.004321253765721289
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.015961961131798375,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "CARE vs RAGE": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.10862096846556457,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.25396091486924705
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.10862096846556457,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": true
+      },
+      "CARE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.04438595469375717,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.11854066050712164
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.04438595469375717,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "CARE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.033513169452943026,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.13850710186699366
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.033513169452943026,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "RAGE vs PANIC": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.0642350137718074,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.1354202543621254
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.0642350137718074,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "RAGE vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.07510779901262155,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.11545381300225338
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.07510779901262155,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      },
+      "PANIC vs PLAY": {
+        "deltas_all_9d": {
+          "Density (D)": 0.0,
+          "Symmetry (S)": 0.0,
+          "Centrality (C)": 0.0,
+          "Depth (H)": 0.0,
+          "Boundary (B)": 0.010872785240814142,
+          "M-CS1_value_core_proximity": 0.0,
+          "M-CS2_self_reference_loop_proxy": 0.0,
+          "M-CS3_corpus_projection_entropy": 0.019966441359872023
+        },
+        "max_5d_dim": "Boundary (B)",
+        "max_5d_delta": 0.010872785240814142,
+        "top10_diff_ratio": 0.0,
+        "differentiation_passed": false
+      }
+    }
+  },
+  "analysis_2_CARE_vs_baseline_per_stimulus": {
+    "welcome × garden": {
+      "CARE_equals_baseline": false,
+      "max_5d_delta": 0.4331821386887401,
+      "max_5d_dim": "Boundary (B)"
+    },
+    "sunset × war": {
+      "CARE_equals_baseline": false,
+      "max_5d_delta": 0.08214108515064367,
+      "max_5d_dim": "Boundary (B)"
+    },
+    "love × garden": {
+      "CARE_equals_baseline": false,
+      "max_5d_delta": 0.06356306362003084,
+      "max_5d_dim": "Boundary (B)"
+    }
+  },
+  "analysis_3_cross_stimulus_consistency": {
+    "Density (D)": {
+      "baseline_uniform vs SEEKING": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "baseline_uniform vs FEAR": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs CARE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs FEAR": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs RAGE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "FEAR vs CARE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs RAGE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          0
+        ],
+        "consistent_direction": false
+      },
+      "RAGE vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "RAGE vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "PANIC vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      }
+    },
+    "Symmetry (S)": {
+      "baseline_uniform vs SEEKING": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "baseline_uniform vs FEAR": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs CARE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs FEAR": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs CARE": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs RAGE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "FEAR vs CARE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs RAGE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          0
+        ],
+        "consistent_direction": false
+      },
+      "RAGE vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "RAGE vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "PANIC vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      }
+    },
+    "Centrality (C)": {
+      "baseline_uniform vs SEEKING": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          1
+        ],
+        "consistent_direction": false
+      },
+      "baseline_uniform vs FEAR": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs FEAR": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "SEEKING vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "SEEKING vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "SEEKING vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "FEAR vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "RAGE vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "RAGE vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "PANIC vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      }
+    },
+    "Depth (H)": {
+      "baseline_uniform vs SEEKING": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs FEAR": {
+        "signs_per_stimulus": [
+          1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs CARE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "baseline_uniform vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs FEAR": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs CARE": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "SEEKING vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs RAGE": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "FEAR vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          0
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs RAGE": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "CARE vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "RAGE vs PANIC": {
+        "signs_per_stimulus": [
+          0,
+          0,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "RAGE vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          0
+        ],
+        "consistent_direction": null
+      },
+      "PANIC vs PLAY": {
+        "signs_per_stimulus": [
+          0,
+          -1,
+          0
+        ],
+        "consistent_direction": null
+      }
+    },
+    "Boundary (B)": {
+      "baseline_uniform vs SEEKING": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "baseline_uniform vs FEAR": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "baseline_uniform vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "baseline_uniform vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "baseline_uniform vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "baseline_uniform vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs FEAR": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "SEEKING vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "SEEKING vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "FEAR vs CARE": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "FEAR vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "FEAR vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          1,
+          -1
+        ],
+        "consistent_direction": false
+      },
+      "FEAR vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs RAGE": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs PANIC": {
+        "signs_per_stimulus": [
+          1,
+          1,
+          1
+        ],
+        "consistent_direction": true
+      },
+      "CARE vs PLAY": {
+        "signs_per_stimulus": [
+          1,
+          -1,
+          1
+        ],
+        "consistent_direction": false
+      },
+      "RAGE vs PANIC": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "RAGE vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      },
+      "PANIC vs PLAY": {
+        "signs_per_stimulus": [
+          -1,
+          -1,
+          -1
+        ],
+        "consistent_direction": true
+      }
+    }
+  },
+  "CARE_effective_stimuli": [
+    "welcome × garden",
+    "sunset × war",
+    "love × garden"
+  ],
+  "differentiation_cells": 36,
+  "total_cells": 63
+}
