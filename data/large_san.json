@@ -1,0 +1,194 @@
+{
+    "metadata": {
+        "description": "Large-Scale SAN extracted from Gutenberg literature corpus.",
+        "total_nodes": 18,
+        "total_edges": 15
+    },
+    "nodes": [
+        {
+            "id": "sorrow",
+            "type": "sensation",
+            "description": "Core concept representing sorrow. Synonyms: sorrow, grief, sadness, mourn, weep. Frequency: 131",
+            "frequency": 131
+        },
+        {
+            "id": "guilt",
+            "type": "sensation",
+            "description": "Core concept representing guilt. Synonyms: guilt, shame, remorse, blame, repent. Frequency: 109",
+            "frequency": 109
+        },
+        {
+            "id": "desolation",
+            "type": "sensation",
+            "description": "Core concept representing desolation. Synonyms: desolation, loneliness, isolated, barren, empty. Frequency: 94",
+            "frequency": 94
+        },
+        {
+            "id": "anger",
+            "type": "sensation",
+            "description": "Core concept representing anger. Synonyms: anger, fury, rage, wrath, bitter. Frequency: 154",
+            "frequency": 154
+        },
+        {
+            "id": "fear",
+            "type": "sensation",
+            "description": "Core concept representing fear. Synonyms: fear, dread, terror, horror, fright. Frequency: 371",
+            "frequency": 371
+        },
+        {
+            "id": "pain",
+            "type": "sensation",
+            "description": "Core concept representing pain. Synonyms: pain, agony, suffering, misery, hurt. Frequency: 267",
+            "frequency": 267
+        },
+        {
+            "id": "joy",
+            "type": "sensation",
+            "description": "Core concept representing joy. Synonyms: joy, delight, happiness, bliss, glad. Frequency: 453",
+            "frequency": 453
+        },
+        {
+            "id": "gratitude",
+            "type": "sensation",
+            "description": "Core concept representing gratitude. Synonyms: gratitude, thankful, appreciation, bless. Frequency: 73",
+            "frequency": 73
+        },
+        {
+            "id": "peace",
+            "type": "sensation",
+            "description": "Core concept representing peace. Synonyms: peace, tranquility, calm, stillness, quiet. Frequency: 244",
+            "frequency": 244
+        },
+        {
+            "id": "fullness",
+            "type": "sensation",
+            "description": "Core concept representing fullness. Synonyms: fullness, satisfaction, contentment, complete. Frequency: 108",
+            "frequency": 108
+        },
+        {
+            "id": "love",
+            "type": "sensation",
+            "description": "Core concept representing love. Synonyms: love, affection, beloved, darling, fondness. Frequency: 483",
+            "frequency": 483
+        },
+        {
+            "id": "hope",
+            "type": "sensation",
+            "description": "Core concept representing hope. Synonyms: hope, aspiration, expectation, trust. Frequency: 360",
+            "frequency": 360
+        },
+        {
+            "id": "reverence",
+            "type": "association",
+            "description": "Core concept representing reverence. Synonyms: reverence, awe, solemn, veneration, holy. Frequency: 87",
+            "frequency": 87
+        },
+        {
+            "id": "melancholy",
+            "type": "association",
+            "description": "Core concept representing melancholy. Synonyms: melancholy, wistful, pensive, sadly. Frequency: 77",
+            "frequency": 77
+        },
+        {
+            "id": "eternity",
+            "type": "association",
+            "description": "Core concept representing eternity. Synonyms: eternity, infinite, immortal, forever, timeless. Frequency: 62",
+            "frequency": 62
+        },
+        {
+            "id": "death",
+            "type": "association",
+            "description": "Core concept representing death. Synonyms: death, dying, grave, dead, comrade. Frequency: 583",
+            "frequency": 583
+        },
+        {
+            "id": "soul",
+            "type": "association",
+            "description": "Core concept representing soul. Synonyms: soul, spirit, essence, mind, conscience. Frequency: 698",
+            "frequency": 698
+        },
+        {
+            "id": "nature",
+            "type": "association",
+            "description": "Core concept representing nature. Synonyms: nature, sunset, dusk, sea, hill, woods. Frequency: 834",
+            "frequency": 834
+        }
+    ],
+    "edges": [
+        {
+            "source": "sorrow",
+            "target": "guilt",
+            "weight": 0.20931213431828266
+        },
+        {
+            "source": "sorrow",
+            "target": "desolation",
+            "weight": 0.3084324394945667
+        },
+        {
+            "source": "sorrow",
+            "target": "anger",
+            "weight": 0.15945191272648512
+        },
+        {
+            "source": "sorrow",
+            "target": "pain",
+            "weight": 0.22411823276581805
+        },
+        {
+            "source": "sorrow",
+            "target": "joy",
+            "weight": 0.19854710080193821
+        },
+        {
+            "source": "sorrow",
+            "target": "reverence",
+            "weight": 0.19329353449407824
+        },
+        {
+            "source": "sorrow",
+            "target": "eternity",
+            "weight": 0.16847169362364295
+        },
+        {
+            "source": "guilt",
+            "target": "fear",
+            "weight": 0.1690804641650388
+        },
+        {
+            "source": "guilt",
+            "target": "pain",
+            "weight": 0.2580421585862481
+        },
+        {
+            "source": "guilt",
+            "target": "eternity",
+            "weight": 0.19499556129969534
+        },
+        {
+            "source": "anger",
+            "target": "pain",
+            "weight": 0.1847354116307483
+        },
+        {
+            "source": "joy",
+            "target": "gratitude",
+            "weight": 0.15336135671506437
+        },
+        {
+            "source": "joy",
+            "target": "love",
+            "weight": 0.15575804941865407
+        },
+        {
+            "source": "gratitude",
+            "target": "love",
+            "weight": 0.2441101428361106
+        },
+        {
+            "source": "eternity",
+            "target": "death",
+            "weight": 0.19458253638522272
+        }
+    ]
+}
