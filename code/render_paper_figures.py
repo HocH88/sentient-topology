@@ -8,7 +8,7 @@ Generates PDF figures for §5.4 (Intra-corpus Affect Trajectory Differentiation)
 Data source: Stage 2 Phase 1 Main results (embedded inline from §6 draft v0.1).
 Output target: 04_출판\논문 초안\latex\  (arXiv submission folder)
 
-Author: Hochanho (Independent Researcher, Seoul)
+Author: Hochul HAN (Seoul National University, Seoul)
 Date: 2026-05-27
 """
 

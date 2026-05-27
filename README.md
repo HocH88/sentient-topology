@@ -124,7 +124,7 @@ CC BY 4.0 — please cite the paper if you use this work.
 @misc{sentient_topology_2026,
   title  = {Sentient Topology: Plasticity-Aware Affective Representation in a
             Humanities-Grounded Sensory Associative Network},
-  author = {Hochanho},
+  author = {Han, Hochul},
   year   = {2026},
   eprint = {arXiv:pending},
   archivePrefix = {arXiv},
@@ -137,5 +137,6 @@ CC BY 4.0 — please cite the paper if you use this work.
 
 ## Contact
 
-Independent Researcher, Seoul, Republic of Korea
+Hochul HAN
+Seoul National University, Seoul, Republic of Korea
 ORCID: [0009-0002-3258-2466](https://orcid.org/0009-0002-3258-2466)
